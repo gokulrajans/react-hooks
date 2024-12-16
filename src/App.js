@@ -1,11 +1,13 @@
 import React from "react";
-import UseCallbackHookParent from "./Hooks/UseCallbackHookParent";
+// import UseCallbackHookParent from "./Hooks/UseCallbackHookParent";
+import AllHooksConcept from './NewHooksConcept/index';
 
 function App() {
 
   return (
     <>
-      <UseCallbackHookParent></UseCallbackHookParent>
+    <AllHooksConcept />
+      {/* <UseCallbackHookParent></UseCallbackHookParent> */}
     </>
   );
 }
